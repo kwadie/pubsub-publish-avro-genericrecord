@@ -1,4 +1,4 @@
-# Using Batching in Cloud Pub/Sub Java client API.
+# Publish Avro Generic Records to GCP PubSub.
 
 This example provides guidance on how to use [Pub/Sub's Java client API](https://cloud.google.com/pubsub/docs/reference/libraries) to batch records that are published to a Pub/Sub topic.
 Using [BatchingSettings](http://googleapis.github.io/gax-java/1.4.1/apidocs/com/google/api/gax/batching/BatchingSettings.html) correctly allows us to better utilize the available resources (cpu, memory, network bandwidth) on the client machine and to improve throughput.

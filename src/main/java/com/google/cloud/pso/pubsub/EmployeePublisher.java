@@ -43,8 +43,6 @@ public class EmployeePublisher extends ObjectPublisher<Employee> {
     @Override
     public ByteString serialize(Employee employee) throws IOException {
 
-        ByteString byteString;
-
         GenericData.Record record = new GenericData.Record(employee.getSchema());
         record.put("name", employee.getName());
         record.put("id", employee.getId());
