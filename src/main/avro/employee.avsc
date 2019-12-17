@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "namespace": "com.google.cloud.pso",
+  "doc": "<destination table>",
+  "name": "Employee",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "id",
+      "type": "long"
+    }
+  ]
+}
